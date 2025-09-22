@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.2" baseProfile="tiny"
+<svg version="1.2" baseProfile="tiny-ps"
      xmlns="http://www.w3.org/2000/svg"
      width="300" height="300" viewBox="0 0 300 300">
 
-  <!-- Brand background (green) -->
+  <!-- Background -->
   <rect x="0" y="0" width="300" height="300" fill="#4A634A"/>
 
-  <!-- Flower (white) — same two subpaths as before -->
+  <!-- Flower (part 1) -->
   <path fill="#FFFFFF" d="
     M 158.60065,257.42397
       c 0.98013,-27.24316 6.11082,-50.15265 13.7058,-61.19902
@@ -34,7 +34,10 @@
         1.66685,3.25995 2.12565,6.35174 2.80261,18.88705
         0.71151,13.17515 4.26674,36.17949 6.03175,39.02892
         0.28119,0.45395 1.81609,0.69899 3.41087,0.54454
-        l 2.89962,-0.28082 z
+        l 2.89962,-0.28082 z"/>
+
+  <!-- Flower (part 2) -->
+  <path fill="#FFFFFF" d="
     M 142.31332,117.4118
       c -6.18069,-2.17592 -14.14473,-10.51098 -16.00049,-16.74588
         -1.95705,-6.575263 -1.83909,-12.658476 0.35904,-18.516159
